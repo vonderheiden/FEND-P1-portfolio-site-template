@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Martin Portfolio 1</title>
+	<link href="http://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/styles.css">
+<!-- TODO: Replace images and text with actual portfolio at end of Udacity course-->
+</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div id="header" class="col-md-6" >
+					<img class="title-logo" src="images/logo_100x100.png" alt="Logo">
+				</div>
+				<div class="col-md-6 text-right text-uppercase">
+					<h1 class="tille -super text-thin">Martin V</h1>
+					<h4>Front-end Ninja</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<hr>
+				</div>
+				<div class="row">
+					<div id="section" class="col-md-12">
+						<img src="images/Banner_1140x350.png" class="img-responsive"  alt="image placeholder">
+					</div>
+				</div>
+				<div class="row">
+					<section class="col-md-12">
+						<h2 class="text-muted">Featured Work</h2>
+					</section>
+				</div>
+	<!-- Images to trigger modal -->
+				<div class="row" >
+					<div class="col-md-4" data-toggle="modal" data-target="#MyModal1">
+						<img src="images/pic1_555x300.png" class="img-responsive" alt="picture 1">
+						<h3>Appify</h3>
+						<a href="https://github.com/udacity/Appify/">https://github.com/udacity/Appify/</a>
+					</div>
+					<div class="col-md-4" data-toggle="modal" data-target="#MyModal2">
+						<img src="images/Pic2_555x300.png" class="img-responsive" alt="picture 2">
+						<h3>Sunflower</h3>
+						<a href="https://github.com/udacity/Appify/">https://github.com/udacity/Sunflower/</a>
+					</div>
+					<div class="col-md-4" data-toggle="modal" data-target="#MyModal3">
+						<img src="images/Pic3_555x300.png" class="img-responsive" alt="picture 3">
+						<h3>Bokey</h3>
+						<a href="https://github.com/udacity/Appify/">https://github.com/udacity/Bokey/</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	<!-- Modal 1 -->
+		<div class="modal fade" id="MyModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h4 class="modal-title" id="myModalLabel1">Favorite App Page</h4>
+		      </div>
+		      <div class="modal-body">
+		        <img src="images/pic1_555x300.png" class="img-responsive center-block" alt="picture 1">
+		        Applify was my first project.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id tincidunt mi, vitae maximus mauris.
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	<!-- Modal 2-->
+		<div class="modal fade" id="MyModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h4 class="modal-title" id="myModalLabel2">Favorite App Page</h4>
+		      </div>
+		      <div class="modal-body">
+		        <img src="images/pic2_555x300.png" class="img-responsive center-block" alt="picture 2">
+		        Sunflower was my second project. In id tincidunt mi, vitae maximus mauris. Etiam eu ullamcorper ante. Vestibulum vitae sem ligula. Sed eget ante tristique, vehicula urna sit amet, rhoncus magna.
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+<!-- Modal 3-->
+		<div class="modal fade" id="MyModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h4 class="modal-title" id="myModalLabel3">Favorite App Page</h4>
+		      </div>
+		      <div class="modal-body">
+		        <img src="images/pic3_555x300.png" class="img-responsive center-block" alt="picture 3">
+		        Bokey was my third project. Morbi sed odio suscipit, porta mauris sit amet, convallis diam. Aenean nec turpis et urna egestas malesuada id in ante. Sed scelerisque aliquet ultrices.
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+		<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+	</body>
+</html>
